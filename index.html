@@ -1,11 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hockey's</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.1/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+  <!--  -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Hockey's</title>
 </head>
+
 <body>
-    
+  <!-- Header -->
+  <header class="mx-5 md:mx-14 lg:mx-28">
+    <!-- Navbar -->
+    <nav class="mb-5 lg:mb-5">
+      <div class="navbar bg-base-100">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+              </svg>
+            </div>
+            <ul tabindex="0"
+              class="menu menu-sm text-lg dropdown-content mt-3 z-[1] p-2 text-[#424247] shadow bg-base-100 rounded-box w-52">
+              <li class="text-[#FF4240]"><a>Home</a></li>
+              <li><a>About</a></li>
+              <li><a>Pages</a></li>
+              <li><a>Blog</a></li>
+              <li><a>Contact </a></li>
+            </ul>
+          </div>
+          <a class="btn btn-ghost font-bold gap-0 text-4xl text-[#424247]">Hockey<span
+              class="text-[#FF4240]">'</span>s</a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal text-base px-1 text-[#424247]">
+            <li class="text-[#FF4240]"><a>Home</a></li>
+            <li><a>About</a></li>
+            <li><a>Pages</a></li>
+            <li><a>Blog</a></li>
+            <li><a>Contact </a></li>
+          </ul>
+        </div>
+        <div class="navbar-end gap-3">
+          <span class="material-symbols-outlined">search</span>
+          <a class="btn px-8 text-lg font-semibold text-white bg-[#FF4240]">Get Ticket </a>
+        </div>
+      </div>
+    </nav>
+    <!--  -->
+    <!-- Carousel -->
+    <div class="carousel h-[200px] md:h-[325px] lg:h-[550px]">
+      <div id="slide1" class="carousel-item relative w-full">
+        <img src="Images/1.png" class="w-full" />
+        <div class="absolute flex justify-between transform -translate-y-1/2 left-[40%] bottom-1 gap-3 lg:left-8">
+          <a href="#slide4" class="btn btn-circle">❮</a> 
+          <a href="#slide2" class="btn btn-circle">❯</a>
+        </div>
+      </div> 
+      <div id="slide2" class="carousel-item relative w-full">
+        <img src="Images/2.png" class="w-full" />
+        <div class="absolute flex justify-between transform -translate-y-1/2 left-[40%] bottom-1 gap-3 lg:left-8  ">
+          <a href="#slide1" class="btn btn-circle">❮</a> 
+          <a href="#slide3" class="btn btn-circle">❯</a>
+        </div>
+      </div> 
+      <div id="slide3" class="carousel-item relative w-full">
+        <img src="Images/3.png" class="w-full" />
+        <div class="absolute flex justify-between transform -translate-y-1/2 left-[40%] bottom-1 gap-3 lg:left-8">
+          <a href="#slide2" class="btn btn-circle">❮</a> 
+          <a href="#slide4" class="btn btn-circle">❯</a>
+        </div>
+      </div> 
+      <div id="slide4" class="carousel-item relative w-full">
+        <img src="Images/4.png" class="w-full" />
+        <div class="absolute flex justify-between transform -translate-y-1/2 left-[40%] bottom-1 gap-3 lg:left-8">
+          <a href="#slide3" class="btn btn-circle">❮</a> 
+          <a href="#slide1" class="btn btn-circle">❯</a>
+        </div>
+      </div>
+    </div>
+    <!--  -->
+  </header>
+
+  <!-- Main -->
+  <main class="mx-5 md:mx-14 lg:mx-28">
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+
+  </footer>
 </body>
+
 </html>
